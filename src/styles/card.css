@@ -1,0 +1,74 @@
+.card {
+	border: 1px solid #2874a6;
+	background-color: #ffffff;
+	padding: 1.23em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.card__name {
+	border-bottom: 1px solid #aed6f1;
+	padding-bottom: 1em;
+}
+
+.card__info {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	font-size: small;
+}
+
+.card__label {
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+
+	color: #85c1e9;
+	font-size: medium;
+}
+
+.card__data {
+	display: flex;
+	align-items: center;
+	gap: 0.25em;
+}
+
+.icon--gift {
+	font-size: 18px;
+}
+
+.card__btns {
+	border-top: 1px solid #aed6f1;
+	padding-top: 0.5em;
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5em;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	border: none;
+	font-size: 18px;
+	padding: 0.5em;
+}
+
+.btn--delete {
+	background-color: #ffcdd2;
+	color: #000000;
+}
+
+.btn--delete:hover {
+	background-color: #f44336;
+}
+
+.btn--edit {
+	background-color: #e3f2fd;
+	border: 1px solid #ccc;
+}
+
+.btn--edit:hover {
+	background-color: #1976d2;
+}
