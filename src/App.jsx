@@ -3,7 +3,7 @@ import useFetch from './hooks/useFetch';
 import Layout from './Layouts/layout';
 import AddEdit from './components/AddEdit';
 import UserLists from './components/UserLists';
-import Modal from './components/modal';
+import Modal from './components/Modal';
 import './styles/modal.css';
 import './styles/header.css';
 import './styles/card.css';
